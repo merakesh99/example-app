@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Record extends Model
 {
     use HasFactory;
+    // protected $fillable =['name','email','phone_no','city','pincode','date',company_name]
 }
